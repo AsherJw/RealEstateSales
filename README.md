@@ -154,7 +154,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 在进行预定操作前，首先客户需要进行登陆，如果没有账户，可以在登陆页面进行注册，登陆后对客户的身份信息进行确认，方便客户添加商品房预定时添加其预定信息，如用户名等；客户点击预定，输入想要预定的商品房的门牌号（唯一标识），如果信息输入有误，会提示“未找到该商品房，请输入正确的门牌号！”或“门牌号不能为空！”需要客户确认信息后进行重新输入；客户点击预定，查询该商品房是否可以预定，客户确认商品房预定，如果所查询的商品房已经被预定不能再被预定，会提示“该商品房已经被预定”，如果可以预定后提示“预定成功”。自此客户完成整个预定流程。预定管理流程图如图3-1所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image002.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image002.png)
 
 ​       图3-1   预定管理流程图
 
@@ -162,15 +162,15 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 在进行取消预定操作前，首先客户需要进行登陆，登陆后对客户的身份信息进行确认；客户点击取消预定，输入想要取消预定的商品房的门牌号（唯一标识），如果信息输入有误，会提示“未找到该商品房，请输入正确的门牌号！”或“门牌号不能为空！”需要客户确认信息后进行重新输入；客户点击取消预定，若输入商品房门牌号不是当前用户所预定的，而是其他用户预定，会提示“该商品房已被预定，请查看其他！”，若输入的商品房门牌号没有被预定，会提示“取消预定失败”，如果可以取消预定，提示“取消预定成功”。自此客户完成整个取消预定流程。取消预定管理流程图如图 3-2 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image004.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image004.png)
 
 ​         图 3-2  取消预定管理流程图
 
-### 3.3.2 客户管理 
+### 3.3.2 客户管理
 
 楼盘销售系统的主要服务对象是客户，对客户信息的管理是否全面高效将直接影响的服务质量，对楼盘销售管理涵盖了客户账户管理模块的全部工作内容。客户的账号是其身份的象征、主要的凭证，所以务必做到一人一号，同时确保客户个人信息的安全性和精准性。账号注册，客户可以点击注册按钮，然后再弹出的界面录入客户提供的账号、密码，并填写客户的个人信息，比如姓名等内容的填写非常重要，在客户注册成功后，还需检查客户信息录入是否正确：密码需要输入两次且要确保相同，否者会提示“两次输入的密码不一致，请重新输入”，其他信息必须填写，否者会提示“账号不能为空”、“用户名不能为空”或“密码不能为空”；如果客户填写的账号已经存在，会提示“账户已存在”；如无问题，会提示“注册成功”，完成客户账号的注册；如出现问题，则应返回最初注册界面重新录入。账号注册流程图如图 3-3 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image006.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image006.png)
 
 图 3-3  账号注册流程图
 
@@ -182,7 +182,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 管理人员根据商品房资源的相关信息、许可证和开发商进行面对面确认，确认无误后，由管理员登陆系统录入商品房信息，按所属社区，楼号，楼层和门牌号进行分类。其中，商品房的门牌号是该录入商品房的唯一标识，商品房门牌号由楼号、楼层和中户号（02）组合而成；最后对商品房信息进行保存，更新商品房数据库。商品房添加管理流程图如图 3-4 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image008.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image008.png)
 
 图 3-4  商品房添加管理流程图
 
@@ -192,7 +192,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 商品房删除管理流程图如图 3-5 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image010.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image010.png)
 
 图 3-5  商品房删除管理流程图
 
@@ -202,7 +202,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 商品房修改管理流程图如图 3-6 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image012.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image012.png)
 
 图 3-6  商品房修改管理流程图
 
@@ -214,7 +214,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 商品房信息查询记录了所有已录入商品房信息，通过对商品房信息条件的模糊查询，比如输入所属社区、楼层或商品房门牌号等中的个别字段进行查询，可以组合几个条件查询，也可以进行单条件查询，查找相对应的记录，系统会显示出所查询商品房的所有信息。商品房信息查询流程图如图 3-7 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image014.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image014.png)
 
 图 3-7  商品房信息查询流程图
 
@@ -222,7 +222,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 所有客户的全部信息都收录在此，通过用户名或账号的模糊查询，输出关于该客户的信息。客户信息查询流程图如图 3-8 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image016.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image016.png)
 
 图 3-8  客户信息查询流程图
 
@@ -230,7 +230,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 当前客户预定信息查询是指记录了当前客户所有预定的商品房项目的查询，客户只需要点击商品房预定查询，系统会自动获取当前登陆用户信息，再数据库的预定表单中查询当前客户预定信息。当前客户预定信息查询流程图如图 3-9 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image018.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image018.png)
 
 图 3-9  当前客户预定信息查询流程图
 
@@ -242,7 +242,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 角色分析指的是分析系统中可能存在的用户，普通用户可以完成预定商品房，查询商品房信息等功能。 商品房信息管理用户较之普通用户，还可以更多的使用系统提供的其他功能，比如对商品房信息的增加、删除、修改、更新客户的预定信息等。系统管理员是整个管理体系中的主要人员，他们担负着系统的日常维护工作。管理系统参与者用例如图 3-10 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image020.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image020.png)
 
 图 3-10     管理系统参与者用例如图
 
@@ -250,7 +250,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 楼盘销售管理系统中的商品房预定模块、用户管理模块、商品房信息管理模块、商品房信息查询模块、预定信息查询模块，这五个功能模块的整体用例图如图 3-11 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image022.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image022.png)
 
 图 3-11     功能模块的整体用例图
 
@@ -258,7 +258,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 表 3-1      系统总体用例描述
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image024.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image024.png)
 
 # 4 系统设计 
 
@@ -274,19 +274,19 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 根据系统的开发目标和系统的实际需求，楼盘销售管理系统的总体设计结构如图 4-1 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image026.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image026.png)
 
 图 4-1      系统总体设计结构图
 
 ### 4.1.1 楼盘销售系统开发视图
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image028.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image028.png)
 
 ### 4.1.2 系统进程视图
 
  
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image030.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image030.png)
 
 ## 4.2 功能模块设计 
 
@@ -296,7 +296,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 商品房预定管理主要包括两个功能模块，即商品房预定、商品房取消预定的功能操作，商品房预定管理功能模块结构图如图 4-2 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image032.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image032.png)
 
 图 4-2      商品房预定功能模块结构图
 
@@ -304,7 +304,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：系统读取客户输入的门牌号，查询商品房信息表、用户信息表、预定信息表，符合要求完成预定条件，更新商品房数据库，更新用户数据库，更新预定信息数据库。商品房预定时序图如图 4-3 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image034.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image034.png)
 
 图 4-3      商品房预定时序图
 
@@ -312,7 +312,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 ​    功能简述：系统读取客户输入的门牌号，查询当前用户名下有没有该商品房预定，符合要求，完成取消预定，更新商品房数据库，更新用户数据库，更新预定信息数据库。商品房取消预定时序图如图 4-4 所示。
 
-​    ![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image036.jpg)
+​    ![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image036.png)
 
 图 4-4      商品房取消预定时序图
 
@@ -320,7 +320,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 用户管理主要包括用户删除，修改功能模块，即客户账号注册等。用户管理功能模块结构图如图 4-5 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image038.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image038.png)
 
 图 4-5      用户管理功能模块结构图
 
@@ -328,7 +328,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：客户在登陆界面填写用户信息，在数据库中比对是否已存在，账户注册时序图如图 4-6 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image040.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image040.png)
 
 图 4-6      账户注册时序图
 
@@ -336,7 +336,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 商品房信息管理主要包括三个功能模块，即对商品信息的增、删、改管理功能，商品房信息管理功能模块结构图如图 4-7所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image042.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image042.png)
 
 图 4-7      商品房信息管理功能模块结构图
 
@@ -344,7 +344,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：当有新的商品房信息需要增加时，商品房信息管理员打开商品房信息增加界面，并根据按所属社区，楼号，楼层和门牌号进行分类，将需要添加的商品房信息录入到系统中，并将数据存档，更新数据库，操作成功。商品房信息增加时序图如图 4-8 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image044.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image044.png)
 
 图 4-8      商品房信息增加时序图
 
@@ -352,7 +352,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：当有商品房信息需要删除时，商品房信息管理员打开商品房信息删除界面，并根据按其门牌号进行查找，将需要删除的商品房信息删除，并将数据存档，更新数据库，操作成功。商品房信息删除时序图如图 4-9 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image046.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image046.png)
 
 图 4-9      商品房信息删除时序图
 
@@ -360,7 +360,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：当有商品房信息需要修改时，商品房信息管理员打开商品房信息修改界面，并根据按其门牌号进行查找，将需要修改的商品房信息修改，并将数据存档，更新数据库，操作成功。商品房信息修改时序图如图 4-10 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image048.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image048.png)
 
 图 4-10     商品房信息修改时序图
 
@@ -368,7 +368,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 查询管理主要包括商品房信息查询、预定信息查询等操作。查询管理功能模块结构图如图 4-11 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image050.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image050.png)
 
 图 4-11     查询管理功能模块结构图
 
@@ -376,7 +376,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：客户打开商品房信息查询管理界面，客户输入条件进行模糊查询操作，输入不同的检索条件，可以得到所有符合条件的商品房的全部信息。商品房信息查询时序图如图 4-12 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image052.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image052.png)
 
 图 4-12     商品房信息查询时序图
 
@@ -384,7 +384,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：客户打开预定信息查询管理界面，可以点击查看当前客户预定的信息。预定信息查询时序图如图 4-13 。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image054.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image054.png)
 
 图 4-13     预定信息查询时序图
 
@@ -400,7 +400,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 用户参数设置中存储了系统中客户的信息，主要包括了 ID、用户名类型、 密码等。用户参数设置表如表 4-1 所示。 
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image056.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image056.png)
 
 表 4-1      用户参数设置表
 
@@ -408,7 +408,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
   管理员管理中存储了系统中管理员的信息，主要包括了管理员的 ID、管理员的姓名、管理员登陆系统的密码等。管理员管理表如表 4-2 所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image058.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image058.png)
 
 表 4-2      管理员管理表
 
@@ -416,7 +416,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
   商品房信息表中存储了系统中商品房的信息，主要包括了门牌号、楼层、楼号、开发商、预定情况等。商品房信息表如表 4-3 所示。 
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image060.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image060.png)
 
 表 4-3      商品房信息表
 
@@ -424,7 +424,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 预定信息表中存储了系统中具体用户预定具体商品房的信息，主要包括了预定id、预定用户的用户名、预定用户id、被预定商品房门牌号、楼层、取消预定标识等。预定信息表如表 4-4所示。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image062.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image062.png)
 
 表 4-4      预定信息表
 
@@ -438,75 +438,75 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
  
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image064.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image064.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image066.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image066.png)
 
 登陆及注册的管理模块中部分核心代码如下：
 
 
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image068.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image068.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image070.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image070.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image072.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image072.png)
 
 ## 5.2  查询商品房信息以及预定功能的实现
 
 ​    普通用户登陆系统后，可点击商品房信息查询，在相应文本框输入，进行模糊查询，查询结果会在右侧框内分条显示，根据查到的商品房信息，客户可以得知哪一套商品房还可以抢购预定，记下看中的商品房门牌号信息后，可以在操作页面点击预定或取消预定，输入选好的商品房门牌号进行预定，预定成功会提示“预定成功”，如果预定失败，会提示“该商品房已经被预定”，取消预定也有相应的提示；之后可以到操作页面点击预定信息查询，查看当前用户下的预定信息；如果普通用户点击其他操作，会提示“管理员才可以执行该操作”。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image074.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image074.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image076.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image076.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image078.jpg)![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image080.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image078.png)![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image080.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image082.jpg) ![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image084.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image082.png) ![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image084.png)
 
 商品房查询和预定的管理模块中部分核心代码如下：
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image086.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image086.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image088.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image088.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image090.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image090.png)
 
 ## 5.3 商品房信息的增删改实现
 
 ​    楼盘销售管理系统关于商品房信息的增、删、改操作，仅允许管理员用户操作，所以第一步要以管理员身份登陆，然后根据与开发商确认的商品房信息进行相应的增、删、改等操作，之后可以用商品房信息查询功能查看相关操作是否成功。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image092.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image092.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image094.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image094.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image096.jpg)![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image098.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image096.png)![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image098.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image100.jpg)![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image102.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image100.png)![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image102.png)
 
 商品房信息的增删改管理模块中部分核心代码如下：
 
 
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image104.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image104.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image106.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image106.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image108.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image108.png)
 
 ## 5.4 用户管理的实现
 
 ​    管理员登陆后，可以查看所以已注册用户，并根据用户账号对用户进行删除操作。
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image110.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image110.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image112.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image112.png)
 
 用户管理模块中部分核心代码如下：
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image114.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image114.png)
 
-![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image116.jpg)
+![img](https://github.com/AsherJw/RealEstateSales/tree/main/RM/clip_image116.png)
 
  
 
