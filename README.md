@@ -482,7 +482,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 ![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image095.png)![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image098.png)
 
-![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image099.png)![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image102.png)
+![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image099.png)![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image101.png)
 
 商品房信息的增删改管理模块中部分核心代码如下：
 
