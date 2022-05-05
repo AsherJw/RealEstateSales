@@ -280,13 +280,13 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 ### 4.1.1 楼盘销售系统开发视图
 
-![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image116 (46).png)
+
 
 ### 4.1.2 系统进程视图
 
  
 
-![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image116 (45).png)
+
 
 ## 4.2 功能模块设计 
 
@@ -304,7 +304,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：系统读取客户输入的门牌号，查询商品房信息表、用户信息表、预定信息表，符合要求完成预定条件，更新商品房数据库，更新用户数据库，更新预定信息数据库。商品房预定时序图如图 4-3 所示。
 
-![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image116 (42).png)
+
 
 图 4-3      商品房预定时序图
 
@@ -312,7 +312,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 ​    功能简述：系统读取客户输入的门牌号，查询当前用户名下有没有该商品房预定，符合要求，完成取消预定，更新商品房数据库，更新用户数据库，更新预定信息数据库。商品房取消预定时序图如图 4-4 所示。
 
-​    ![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image116 (41).png)
+   
 
 图 4-4      商品房取消预定时序图
 
@@ -328,7 +328,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：客户在登陆界面填写用户信息，在数据库中比对是否已存在，账户注册时序图如图 4-6 所示。
 
-![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image116 (39).png)
+
 
 图 4-6      账户注册时序图
 
@@ -344,7 +344,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：当有新的商品房信息需要增加时，商品房信息管理员打开商品房信息增加界面，并根据按所属社区，楼号，楼层和门牌号进行分类，将需要添加的商品房信息录入到系统中，并将数据存档，更新数据库，操作成功。商品房信息增加时序图如图 4-8 所示。
 
-![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image116 (37).png)
+
 
 图 4-8      商品房信息增加时序图
 
@@ -352,7 +352,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：当有商品房信息需要删除时，商品房信息管理员打开商品房信息删除界面，并根据按其门牌号进行查找，将需要删除的商品房信息删除，并将数据存档，更新数据库，操作成功。商品房信息删除时序图如图 4-9 所示。
 
-![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image116 (36).png)
+
 
 图 4-9      商品房信息删除时序图
 
@@ -360,7 +360,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：当有商品房信息需要修改时，商品房信息管理员打开商品房信息修改界面，并根据按其门牌号进行查找，将需要修改的商品房信息修改，并将数据存档，更新数据库，操作成功。商品房信息修改时序图如图 4-10 所示。
 
-![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image116 (35).png)
+
 
 图 4-10     商品房信息修改时序图
 
@@ -376,7 +376,7 @@ IDEA中的Project类似于eclipse中的workspace，而Module类似于eclipse中�
 
 功能简述：客户打开商品房信息查询管理界面，客户输入条件进行模糊查询操作，输入不同的检索条件，可以得到所有符合条件的商品房的全部信息。商品房信息查询时序图如图 4-12 所示。
 
-![img](https://cdn.jsdelivr.net/gh/AsherJw/CDN@1.08/RM/clip_image116 (33).png)
+
 
 图 4-12     商品房信息查询时序图
 
